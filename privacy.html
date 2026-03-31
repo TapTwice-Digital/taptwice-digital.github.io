@@ -36,6 +36,7 @@
         h1 {
             font-size: 34px;
             margin-bottom: 8px;
+            color: #0f172a;
         }
 
         .updated {
@@ -48,6 +49,7 @@
             font-size: 20px;
             margin-top: 28px;
             margin-bottom: 10px;
+            color: #111827;
         }
 
         p, li {
@@ -65,11 +67,42 @@
             text-decoration: none;
         }
 
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .important {
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            border-radius: 16px;
+            padding: 18px;
+            margin-top: 10px;
+        }
+
         .footer {
             margin-top: 28px;
             font-size: 14px;
             color: #94a3b8;
             text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 20px 14px;
+            }
+
+            .container {
+                padding: 28px 20px;
+                border-radius: 18px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p, li {
+                font-size: 15px;
+            }
         }
     </style>
 </head>
@@ -80,33 +113,72 @@
         <p class="updated">Last updated: March 3, 2026</p>
 
         <h2>Overview</h2>
-        <p>Arvio is a personal budgeting app. Your privacy is important to us.</p>
+        <p>
+            Arvio is a personal budgeting app designed to help you manage your finances. Your privacy is important to us, and this policy explains what data is accessed and how it is handled.
+        </p>
 
         <h2>Data Storage</h2>
-        <p>All data is stored locally on your device or in your private iCloud via CloudKit.</p>
-        <p>We do not have access to your data.</p>
+        <p>
+            All of your financial data — including transactions, budgets, categories, and settings — is stored locally on your device.
+        </p>
+        <p>
+            If you are signed into iCloud, your data may also be securely synced to your private iCloud account using Apple’s CloudKit framework. This data is only accessible to you and anyone you explicitly choose to share a ledger with.
+        </p>
+        <p>
+            We do not have access to your iCloud data. Apple manages storage, syncing, and encryption.
+        </p>
 
         <h2>Data We Do Not Collect</h2>
         <ul>
-            <li>No personal data collection</li>
-            <li>No analytics or tracking</li>
-            <li>No selling or sharing data</li>
-            <li>No servers storing your financial data</li>
+            <li>We do not collect personal information for our own servers.</li>
+            <li>We do not use analytics or tracking services.</li>
+            <li>We do not sell, share, or transfer your financial data to third parties.</li>
+            <li>We do not operate servers that store your budgeting data.</li>
         </ul>
 
-        <h2>Camera & Photo Library</h2>
-        <p>Used only for attaching receipts. Stored locally or in iCloud.</p>
+        <h2>Camera &amp; Photo Library</h2>
+        <p>
+            Arvio may request access to your camera or photo library to allow you to attach receipt photos to transactions. These images are stored locally on your device and, if enabled, in your private iCloud account.
+        </p>
+        <p>
+            These images are never uploaded to external servers operated by Arvio.
+        </p>
 
         <h2>Third-Party Services</h2>
-        <p>Uses <a href="https://logo.dev">logo.dev</a> for logos (no personal data sent).</p>
+        <p>
+            Arvio uses <a href="https://logo.dev" target="_blank">logo.dev</a> to display company logos for recurring transactions.
+        </p>
+        <p>
+            When requesting a logo, only a company domain name may be sent to the logo.dev API. No personal or financial data is included in these requests.
+        </p>
 
         <h2>iCloud Sharing</h2>
-        <p>Shared ledgers are managed via Apple CloudKit.</p>
+        <p>
+            Arvio supports shared ledgers using Apple’s iCloud sharing features. When you share a ledger, invited participants can view and edit the transactions and budgets within that ledger.
+        </p>
+        <p>
+            Sharing is managed entirely through Apple’s CloudKit infrastructure.
+        </p>
+
+        <h2>Children’s Privacy</h2>
+        <p>
+            Arvio does not knowingly collect personal information from children under the age of 13.
+        </p>
+
+        <h2>Changes to This Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date.
+        </p>
 
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:4artery_orcas@icloud.com">4artery_orcas@icloud.com</a></p>
+        <p>
+            If you have questions about this Privacy Policy, you can contact us at:
+        </p>
+        <p>
+            Email: <a href="mailto:4artery_orcas@icloud.com">4artery_orcas@icloud.com</a>
+        </p>
 
-        <div class="footer">© 2026 Arvio</div>
-    </div>
-</body>
-</html>
+        <div class="important">
+            <p><strong>Important:</strong></p>
+            <p>
+                When sending an email, please include
